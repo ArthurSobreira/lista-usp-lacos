@@ -1,2 +1,3 @@
-# repo-template
-Repository that contains .gitattributes, .editorconfig and .gitignore
+# lista-usp-lacos
+
+Lista de exercícios com Estruturas de Repetição (while/for) da Universidade de São Paulo
