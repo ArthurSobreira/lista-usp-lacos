@@ -1,19 +1,14 @@
 #Faça um programa para exibir a tabuada de 0 a 9.
 
-#Com while
+def mult_table(number):
+    for c in range(10):
+        print(f'{number} * {c} = {number * c}')
 
-num = int(input('Digite um Número para ver sua Tabuada: '))
-c = 0
-print('=' * 39)
-while c <= 10:
-    print(f'{num} * {c} = {num * c} ')
-    c += 1
-print('=' * 39)
 
-#Com for
+def main():
+    num = int(input('Input a number: '))
+    mult_table(num)
 
-num = int(input('Digite um Número para ver sua Tabuada: '))
-print('=' * 39)
-for c in range(0, 11):
-    print(f'{num} * {c} = {num * c}')
-print('=' * 39)
+
+if __name__ == '__main__':
+    main()
